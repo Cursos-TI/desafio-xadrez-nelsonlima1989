@@ -5,7 +5,7 @@ int main(){
     int t = 1;
     int b = 1;
     int r = 1;
-    int esquerda = 1;
+    int baixo = 1;
 
     printf("Este programa movimentará as peças de xadrez.\n");
     printf("Torre: 5 casas à direita.\n");
@@ -44,10 +44,10 @@ int main(){
 
     for (int c = 1; c <=1; c++){
 
-        while (esquerda <= 2)
+        while (baixo <= 2)
         {
             printf("Baixo.\n");
-            esquerda++;
+            baixo++;
         } 
 
         printf("Esquerda.\n");
